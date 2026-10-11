@@ -1,0 +1,10 @@
+h1, h2, h3, p { margin-top: 0; }
+h1, h2, h3 { font-family: var(--font-heading); letter-spacing: -.045em; }
+h1 { font-size: clamp(3rem, 7vw, 5.9rem); line-height: .99; margin-bottom: 24px; }
+h2 { font-size: clamp(2rem, 4.3vw, 3.5rem); line-height: 1.08; margin-bottom: 18px; }
+h3 { font-size: 1.18rem; letter-spacing: -.025em; margin-bottom: 10px; }
+p { line-height: 1.75; }
+.accent { color: var(--cyan); }
+.gradient-text { color: var(--cyan); background: linear-gradient(100deg, var(--cyan), #8ba4ff 65%, var(--violet)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.muted-heading { color: var(--text-muted); }
+.eyebrow { color: var(--cyan); font-family: var(--font-code); font-size: .72rem; font-weight: 500; letter-spacing: .11em; line-height: 1.6; margin-bottom: 18px; }

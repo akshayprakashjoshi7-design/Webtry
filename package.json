@@ -1,0 +1,22 @@
+{
+  "name": "techvision-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TechVision learning, coding, and authorized cybersecurity platform",
+  "type": "module",
+  "engines": { "node": ">=20.0.0" },
+  "scripts": {
+    "dev": "node --watch server/server.js",
+    "start": "node server/server.js",
+    "check": "node --check server/server.js && node --check server/app.js && node --check server/config/env.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.0"
+  }
+}
